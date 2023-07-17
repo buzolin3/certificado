@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+:root{
+    --cor-titulo: #0d2152;
+    --cor-subtitulo: white;
+    --cor-texto: black;
+    --cor-fundo: white;
+    --cor-paisagem: rgb(0, 153, 255);
+    --cor-botao: grey;
+    --cor-link: rgb(29, 29, 29);
+    --cor-degrade: linear-gradient(90.54deg, rgb(14, 32, 80) 35.49%, rgb(44, 94, 202) 165.37%);
+
+    --font-lato: 'Lato', Arial, sans-serif;
+    --font-montserrat: 'Montserrat', Arial, sans-serif;
+    --font-poppins: 'Poppins', Arial, sans-serif;
+    --font-roboto: 'Roboto', Arial, sans-serif;
+}
+
+
 *{
     padding: 0px;
     margin: 0px;
+    font-family: var(--font-lato);
 }
-
