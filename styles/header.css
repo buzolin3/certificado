@@ -1,0 +1,76 @@
+.cabecalho{
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.cabecalho_logo{
+    padding: 10px;
+}
+
+.cabecalho_titulo{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+#burguer{
+    padding-right: 10px;
+    display: block;
+}
+
+
+#navbar_menu{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 190px;
+}
+
+#lista_menu{
+    text-align: center;
+    list-style-type: none;
+}
+
+#link_menu{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.lista-item{
+    padding-bottom: 10px;
+}
+
+.banner{
+    width: 100vw;
+    height: 220px;
+    background: url(../imagens/fundop.png);
+    background-position: top left;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_txt{  
+    width: 200px;
+}
+
+.banner_titulo{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.banner_subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+
+}
