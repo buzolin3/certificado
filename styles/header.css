@@ -61,7 +61,7 @@
 }
 
 .banner_txt{  
-    width: 220px;
+    width: 60%;
 }
 
 .banner_titulo{
@@ -130,4 +130,5 @@
     font-size: 12px;
     padding-top: 6px;
 }
+
 

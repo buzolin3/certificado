@@ -7,8 +7,8 @@
     --cor-texto: black;
     --cor-fundo: white;
     --cor-paisagem: rgb(0, 153, 255);
-    --cor-botao: grey;
-    --cor-link: rgb(29, 29, 29);
+    --cor-botao: rgb(31, 43, 146);
+    --cor-link: rgb(40, 40, 40);
     --cor-degrade: linear-gradient(90deg, rgb(14, 32, 80) 35%, rgb(44, 94, 202) 165%);
 
     --font-lato: 'Lato', Arial, sans-serif;
@@ -22,4 +22,20 @@
     padding: 0px;
     margin: 0px;
     font-family: var(--font-lato);
+}
+
+
+#linha{
+    width: 200px;
+    background-image: var(--cor-degrade);
+    height: 5px;
+    border-radius: 20px;
+}
+
+.linha0{
+    margin: 100px auto 50px auto;
+}
+
+.linha1{
+    margin: 60px auto 60px auto
 }

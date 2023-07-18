@@ -1,15 +1,4 @@
-#linha{
-    width: 200px;
-    background-image: var(--cor-degrade);
-    height: 5px;
-    border-radius: 10px;
-}
 
-.linha0{
-    display: block;
-    margin: auto;
-    margin-top: 100px;
-}
 
 .certificado{
     width: 99vw;
@@ -18,19 +7,59 @@
 
 #certificado_titulo{
     color: var(--cor-titulo);
-    margin: 20px 5px 10px 5px;
+    margin: 30px 5px 5px 5px;
 }
 
 #certificado_texto{
-    width: 90vw;
-}
-
-.certificado_texto1{
     margin: auto;
     width: 90%;
 }
 
 #certificado_img{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 5px;
+}
+
+.certificado_img2, .certificado_img3{
+    padding-top: 20px;
+}
+
+#certificado_botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+#certificado_fundo{
+    background-color: var(--cor-botao);
+    color: var(--cor-subtitulo);
+    width: 120px;
+    height: 120px;
+    display: grid;
+    grid-template-rows: 90px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+#botao_texto{
+    margin: auto;
+    vertical-align: center;
+}
+
+#botao_link{
+    background-color: var(--cor-link);
+    padding-top: 10px;
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+    color: var(--cor-subtitulo);
+    vertical-align: center;
+    border-radius: 0px 0px 20px 20px;
+
 }
