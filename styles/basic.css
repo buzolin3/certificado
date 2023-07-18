@@ -9,7 +9,7 @@
     --cor-paisagem: rgb(0, 153, 255);
     --cor-botao: grey;
     --cor-link: rgb(29, 29, 29);
-    --cor-degrade: linear-gradient(90.54deg, rgb(14, 32, 80) 35.49%, rgb(44, 94, 202) 165.37%);
+    --cor-degrade: linear-gradient(90deg, rgb(14, 32, 80) 35%, rgb(44, 94, 202) 165%);
 
     --font-lato: 'Lato', Arial, sans-serif;
     --font-montserrat: 'Montserrat', Arial, sans-serif;
