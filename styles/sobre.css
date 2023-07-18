@@ -1,0 +1,19 @@
+#sobre{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+#sobre_titulo{ 
+    color: var(--cor-titulo);
+    font-size: 22px;
+    padding: 10px;
+}
+
+#sobre_texto{
+    padding-bottom: 30px;
+}
+
+.sobre_texto1{
+    text-align: start;
+}

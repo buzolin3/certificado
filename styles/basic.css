@@ -6,9 +6,9 @@
     --cor-subtitulo: white;
     --cor-texto: black;
     --cor-fundo: white;
-    --cor-paisagem: rgb(0, 153, 255);
-    --cor-botao: rgb(31, 43, 146);
-    --cor-link: rgb(40, 40, 40);
+    --cor-paisagem: #0099AE;
+    --cor-botao: rgb(39, 39, 39);
+    --cor-link: rgb(39, 39, 39);
     --cor-degrade: linear-gradient(90deg, rgb(14, 32, 80) 35%, rgb(44, 94, 202) 165%);
 
     --font-lato: 'Lato', Arial, sans-serif;
@@ -36,6 +36,6 @@
     margin: 100px auto 50px auto;
 }
 
-.linha1, .linha2{
+.linha1, .linha2, .linha3{
     margin: 60px auto 60px auto
 }

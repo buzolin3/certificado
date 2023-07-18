@@ -53,12 +53,14 @@
 }
 
 #botao_link{
-    background-color: var(--cor-link);
+    background-color: var(--cor-subtitulo);
     padding-top: 10px;
-    width: 120px;
+    width: 118px;
     height: 30px;
     text-decoration: none;
-    color: var(--cor-subtitulo);
+    color: var(--cor-texto);
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.452);
     vertical-align: center;
     border-radius: 0px 0px 20px 20px;
 
