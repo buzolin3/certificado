@@ -2,6 +2,10 @@
     text-align: justify;
 }
 
+#duvida_img{
+    height: 20%;
+}
+
 #duvida_grupo{  
     display: flex;
     flex-direction: column;

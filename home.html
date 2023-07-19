@@ -15,10 +15,10 @@
 
 
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="home">
         <img src="imagens/logo_rc-300.png" alt="logo_rc" class="cabecalho-logo" width="50px" height="50px">
         <h1 class="cabecalho_titulo">RC-Certificação</h1>
-        <span class="material-icons" id="burguer" onclick="menu_burguer()">menu</span>
+        <img src="imagens/menu-aberto.png" alt="menu" width="30px" id="burguer" onclick="menu_burguer()">
     </header>
 
 
@@ -29,12 +29,12 @@
         </div>
         <menu id="navbar_menu">
             <ul id="lista_menu">
-                <li class="lista-item"><a href="#" id="link_menu">Home</a></li>
-                <li class="lista-item"><a href="#" id="link_menu">Certificado-Digital</a></li>
-                <li class="lista-item"><a href="#" id="link_menu">Agende já</a></li>
-                <li class="lista-item"><a href="#" id="link_menu">Localização</a></li>
-                <li class="lista-item"><a href="#" id="link_menu">Dúvidas</a></li>
-                <li class="lista-item"><a href="#" id="link_menu">Sobre</a></li>
+                <li class="lista-item"><a href="#home" rel="next" id="link_menu">Home</a></li>
+                <li class="lista-item"><a href="#certificado" rel="next" id="link_menu">Certificado-Digital</a></li>
+                <li class="lista-item"><a href="#agendamento" rel="next" id="link_menu">Agende já</a></li>
+                <li class="lista-item"><a href="#mapa" rel="next" id="link_menu">Localização</a></li>
+                <li class="lista-item"><a href="#duvida" rel="next" id="link_menu">Dúvidas</a></li>
+                <li class="lista-item"><a href="#sobre" rel="next" id="link_menu">Sobre</a></li>
             </ul>
         </menu>
     </div>
@@ -129,7 +129,7 @@
 
     <section id="duvida">
         <div class="duvida_grupo1" id="duvida_grupo">
-            <img src="imagens/e-cnpj.png" alt="E-CNPJ" >
+            <img src="imagens/e-cnpj.png" alt="E-CNPJ" id="duvida_img">
             <aside id="duvida_texto">
                 <p id="duvida_paragrafo">O <b>E-CNPJ</b> nada mais é que uma versão eletrônica do <b>CNPJ</b>, ou seja, é um tipo de Certificado Digital que tem como função garantir a autenticidade e integridade nas transações realizadas no ambiente virtual das pessoas jurídicas. Entre algumas funcionalidades do <b>E-CNPJ</b>, se destacam:</p>
                 <br>
@@ -151,7 +151,7 @@
         </div>
         <br>
         <div class="duvida_grupo2" id="duvida_grupo">
-            <img src="imagens/e-cpf.png" alt="e-cpf">
+            <img src="imagens/e-cpf.png" alt="e-cpf" id="duvida_img">
             <aside id="duvida_texto">
                 <p id="duvida_paragrafo">É a solução destinada a pessoas físicas e se comporta como se fosse o seu CPF em versão digital.Recomendado para advogados, contadores e público geral O E-CPF te identifica no meio eletrônico, permitindo a realização de diferentes serviços:</p>
                 <br>
@@ -167,7 +167,7 @@
         </div>
         <br>
         <div class="duvida_grupo3" id="duvida_grupo">
-            <img src="imagens/duvida.png" alt="duvidas">
+            <img src="imagens/duvida.png" alt="duvidas" id="duvida_img">
             <aside id="duvida_texto" class="duvida_texto3">
                 <p id="duvida_paragrafo" class="duvida_paragrafo3">Não encontrou o que procurava? <br> Entre em contato conosco, teremos o maior prazer em atendê-lo!</p>
                 <br> <br> <br>
@@ -226,22 +226,29 @@
             <br> <br>
             Solicite uma proposta abaixo.
             </p>
+        <br>
         <h3 id="sobre_titulo">Fale Conosco</h3>
-        <div>
-            <img src="" alt="">
-            <a href=""></a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href=""></a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href=""></a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href=""></a>
+        <div id="contato">
+            <div id="contato_bloco">
+                <img src="imagens/Call.png" alt="Telefone" id="contato_img" class="contato_img1" >
+                <a href="#" id="contato_link"><b>Telefone:</b> <br> (16)32525060 ou (16) 32533020</a>
+            </div>
+            <div id="contato_bloco">
+                <img src="imagens/WhatsApp.png" alt="Whatsapp" id="contato_img" class="contato_img2">
+                <a href="#" id="contato_link">
+                    Whatsapp: (16)99755-1302
+                </a>
+            </div>
+            <div id="contato_bloco">
+                <img src="imagens/Email.png" alt="E-mail" id="contato_img" class="contato_img3">
+                <a href="#" id="contato_link">
+                    Email: <br> rccertificado@hotmail.com
+                </a>
+            </div>
+            <div id="contato_bloco">
+                <img src="imagens/Instagram.png" alt="Instagram" id="contato_img" class="contato_img4">
+                <a href="#" id="contato_link">Instagram: @rc-contabil</a>
+            </div>
         </div>
     </section>
 

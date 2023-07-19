@@ -1,0 +1,24 @@
+Home
+Id: home
+
+Certificado
+id: certificado
+
+Agende
+id: agendamento
+
+Localização
+id: mapa
+
+duvida
+id: duvida
+
+documentos necessarios
+id: documentos
+
+Sobre
+id: sobre
+
+contato
+id: contato
+
