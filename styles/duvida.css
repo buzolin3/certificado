@@ -3,14 +3,14 @@
 }
 
 #duvida_img{
-    width: 100vw;
+    width: 99vw;
     height: 200px;
     background: url(../imagens/e-cnpj.png);
     background-size: cover;
 background-position: center center;}
 
 #duvida_img2{
-    width: 100vw;
+    width: 99vw;
     height: 200px;
     background: url(../imagens/e-cpf.png);
     background-size: cover;
@@ -18,7 +18,7 @@ background-position: center center;
 }
 
 #duvida_img3{
-    width: 100vw;
+    width: 99vw;
     height: 200px;
     background: url(../imagens/duvida.png);
     background-size: cover;
