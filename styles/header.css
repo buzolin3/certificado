@@ -28,6 +28,10 @@
     font-weight: 700;
 }
 
+.cabecalho_lista{
+    display: none;
+}
+
 #burguer{
     padding-right: 10px;
     display: block;
@@ -103,6 +107,14 @@
     text-shadow: 1px 1px 5px black;
 }
 
+.banner_img{
+    display: none ;
+    margin: 60px;
+}
+
+.banner_logo{
+    border-radius: 50%;
+}
 
 
 .blocos{
@@ -148,3 +160,118 @@
 }
 
 
+
+/*Tablet*/
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .banner{
+        background-image: url(../imagens/BannerCertdata2.png.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+
+    .banner_img{
+        display: block ;
+    }
+
+}
+
+
+
+
+/*note*/
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    .banner{
+        background-image: url(../imagens/BannerCertdata2.png.jpg);
+        background-size: cover;
+        width: 100vw;
+        background-position:center ;
+    }
+
+    .banner_img{
+        display: block ;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    .cabecalho{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+        width: 98vw;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+        
+    }
+
+    .cabecalho_lista{
+        display: flex;
+        margin-left: 5vw ;
+        list-style-type: none;
+    }
+    
+    .cabecalho-item{
+        width: auto;
+        height: auto;
+        padding: 0px 10px;
+    }
+    
+    #cabecalho_link{
+        text-decoration: none;
+        color: var(--cor-texto);
+    }
+
+}
+
+
+
+
+/*pc*/
+@media screen and (min-width:1300px){
+    .banner{
+        background-image: url(../imagens/BannerCertdata2.png.jpg);
+        width: 100vw;
+        background-size: cover;
+        background-position:center ;
+    }
+
+    .banner_img{
+        display: block ;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    .cabecalho{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+        width: 99vw;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+    }
+
+    .cabecalho_lista{
+        display: flex;
+        margin-left: 5vw ;
+        list-style-type: none;
+    }
+
+    .cabecalho-item{
+        width: auto;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    #cabecalho_link{
+        text-decoration: none;
+        color: var(--cor-texto);
+    }
+
+
+}

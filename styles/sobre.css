@@ -42,20 +42,81 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
 }
 
 #contato_img{
     width: 40px;
-
 }
 
 #contato_link{
     color: var(--cor-link);
     text-decoration: none;
-
 }
 
 .contato_img1{
     width: 40px;
+}
+
+
+
+/*Tablet*/
+@media screen and (min-width:700px) and (max-width:1000px) {
+    #sobre{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    #contato{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 20px;
+    }
+}
+
+
+/*note*/
+@media screen and (min-width:1000px) and (max-width:1300px) 
+{
+    #sobre{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    #contato{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 20px;
+    }
+}
+
+
+/*pc*/
+@media screen and (min-width:1300px){
+    #sobre{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    
+    
+    #contato{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 20px;
+    }
 }

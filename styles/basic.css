@@ -39,3 +39,17 @@
 .linha1, .linha2, .linha3{
     margin: 60px auto 60px auto
 }
+
+
+/*Tablet*/
+@media screen and (min-width:700px) and (max-width:1000px) {
+    
+}
+/*note*/
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    
+}
+/*pc*/
+@media screen and (min-width:1300px){
+    
+}

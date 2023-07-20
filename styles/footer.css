@@ -5,13 +5,28 @@
 .rodape_bloco{
     background-color: rgb(216, 216, 216);
     border-top: 1px solid rgba(0, 0, 0, 0.514);
-    padding: 30px;
+    padding: 10px;
     margin-top: 150px;
 }
 
-.rodape_texto{
+#rodape_texto{
     color: #042955;
     font-weight: 500;
     font-size: 14px;
     font-family: var(--font-poppins);
+    padding: 10px;
+}
+
+
+/*Tablet*/
+@media screen and (min-width:700px) and (max-width:1000px) {
+    
+}
+/*note*/
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    
+}
+/*pc*/
+@media screen and (min-width:1300px){
+    
 }

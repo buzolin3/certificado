@@ -44,11 +44,25 @@
         <img src="imagens/logo_rc-300.png" alt="logo_rc" class="cabecalho-logo" width="50px" height="50px">
         <h1 class="cabecalho_titulo">RC-Certificação</h1>
         <img src="imagens/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu" width="35px" id="burguer" onclick="menu_burguer()">
+
+        <ul class="cabecalho_lista">
+            <li class="cabecalho-item"><a href="#banner_tela" rel="next" id="cabecalho_link">Home</a></li>
+            <li class="cabecalho-item"><a href="#certificado" rel="next" id="cabecalho_link">Certificado-Digital</a></li>
+            <li class="cabecalho-item"><a href="#agendamento" rel="next" id="cabecalho_link">Agende já</a></li>
+            <li class="cabecalho-item"><a href="#mapa" rel="next" id="cabecalho_link">Localização</a></li>
+            <li class="cabecalho-item"><a href="#documentos" rel="next" id="cabecalho_link">Dúvidas</a></li>
+            <li class="cabecalho-item"><a href="#sobre" rel="next" id="cabecalho_link">Sobre</a></li>
+        </ul>
     </header>
+
+
     <div class="banner" id="banner_tela">
         <div class="banner_txt">
             <h1 class="banner_titulo" id="banner_titulo">CERTIFICAÇÃO DIGITAL</h1>
             <h3 class="banner_subtitulo">O certificado digital ideal para você e o seu negócio</h3>
+        </div>
+        <div class="banner_img">
+            <img src="imagens/Cópia de White And Black Modern Abstract Beauty Logo (3).png" alt="Logo-RC" width="125px" class="banner_logo" >
         </div>
         <menu id="navbar_menu">
             <ul id="lista_menu">
@@ -126,7 +140,8 @@
 
     <section id="duvida">
         <div class="duvida_grupo1" id="duvida_grupo">
-            <img src="imagens/e-cnpj.png" alt="E-CNPJ" id="duvida_img">
+            <div id="duvida_img" class="duvida_img1">
+            </div>
             <aside id="duvida_texto">
                 <p id="duvida_paragrafo">O <b>E-CNPJ</b> nada mais é que uma versão eletrônica do <b>CNPJ</b>, ou seja, é um tipo de Certificado Digital que tem como função garantir a autenticidade e integridade nas transações realizadas no ambiente virtual das pessoas jurídicas. Entre algumas funcionalidades do <b>E-CNPJ</b>, se destacam:</p>
                 <br>
@@ -148,7 +163,8 @@
         </div>
         <br>
         <div class="duvida_grupo2" id="duvida_grupo2">
-            <img src="imagens/e-cpf.png" alt="e-cpf" id="duvida_img">
+            <div id="duvida_img2" class="duvida_img2">
+            </div>
             <aside id="duvida_texto">
                 <p id="duvida_paragrafo">É a solução destinada a pessoas físicas e se comporta como se fosse o seu CPF em versão digital.Recomendado para advogados, contadores e público geral O E-CPF te identifica no meio eletrônico, permitindo a realização de diferentes serviços:</p>
                 <br>
@@ -164,7 +180,8 @@
         </div>
         <br>
         <div class="duvida_grupo3" id="duvida_grupo">
-            <img src="imagens/duvida.png" alt="duvidas" id="duvida_img">
+            <div id="duvida_img3" class="duvida_img3">
+            </div>
             <aside id="duvida_texto" class="duvida_texto3">
                 <p id="duvida_paragrafo" class="duvida_paragrafo3">Não encontrou o que procurava? <br> Entre em contato conosco, teremos o maior prazer em atendê-lo!</p>
                 <br> <br> <br>
@@ -252,9 +269,8 @@
 
     <footer class="rodape">
         <div class="rodape_bloco">
-            <p class="rodape_texto">RC-Contábil Certificado-Digital</p>
-            <br><br>
-            <p class="rodape_texto">Escritório: Rua General Glicério, 1155, Centro, Taquaritinga/SP <br>CEP:15900-045</p>
+            <p id="rodape_texto" class="rodape_texto1">RC-Contábil Certificado-Digital</p>
+            <p id="rodape_texto" class="rodape_texto2">Escritório: Rua General Glicério, 1155, Centro, Taquaritinga/SP <br>CEP:15900-045</p>
         </div>
     </footer>
 <script src="home.js"></script>
