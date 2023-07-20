@@ -87,7 +87,8 @@
 }
 
 .banner_txt{  
-    width: 60%;
+    width: 90%;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -194,9 +195,10 @@
     }
 
     .banner_txt{  
-        width: 60%;
+        width: 50%;
+        margin: 0px;
         text-align: center;
-        padding-top: 30px;
+        padding: 30px ;
     }
 
     .banner_subtitulo{
@@ -227,6 +229,7 @@
 
     .banner_txt{  
         width: 50%;
+        margin: 0px;
         text-align: center;
         padding-top: 30px;
     }
@@ -304,8 +307,9 @@
 
     .banner_txt{  
         width: 50%;
+        margin: 0px;
         text-align: center;
-        padding-top: 80px;
+        padding: 80px 30px;
     }
 
     .banner_titulo{
@@ -435,9 +439,6 @@
 
 .banner_subtitulo{
     font-size: 28px;
-}
-
-.banner_img{
 }
 
 .banner_logo{
