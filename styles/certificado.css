@@ -176,6 +176,11 @@
         margin: auto;
     }
 
+    .certificado_bloco{
+        display: block;
+        margin-left: 100px;
+    }
+
     .certificado_texto1{
         margin: 10px auto;
         justify-content: justify;
@@ -251,7 +256,7 @@
         margin-top: 58px;
         padding: 5px 0px;
         width: 158px;
-        height: 40px;
+        height: 45px;
     }
 }
 
