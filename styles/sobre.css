@@ -15,7 +15,7 @@
 }
 
 .sobre_texto1{
-    text-align: start;
+    text-align: justify;
 }
 
 
@@ -105,7 +105,7 @@
 @media screen and (min-width:1300px){
     #sobre{
         text-align: center;
-        width: 70%;
+        width: 60%;
         margin: auto;
     }
 
@@ -117,13 +117,17 @@
         font-size: 18px;
     }
     
+    .sobre_texto1{
+        text-align: justify;
+    }
+
     #contato{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 50px;
         margin: 20px 20px;
     }
 
@@ -133,8 +137,19 @@
 /*tv*/
 @media screen and (min-width:1700px){
     #sobre{
-        text-align: center;
-        width: 50%;
+        width: 60%;
         margin: auto;
+    }
+
+    .sobre_texto1{
+        text-align: justify;
+    }
+
+    #contato{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 60px;
+        margin: 20px 20px;
     }
 }

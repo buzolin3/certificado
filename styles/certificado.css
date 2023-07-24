@@ -58,7 +58,7 @@
     background-color: var(--cor-botao);
     color: var(--cor-subtitulo);
     width: 120px;
-    height: 120px;
+    height: 130px;
     display: grid;
     grid-template-rows: 90px 30px;
     justify-content: center;
@@ -74,7 +74,9 @@
 
 #botao_link{
     background-color: var(--cor-subtitulo);
-    padding-top: 10px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
     width: 118px;
     height: 30px;
     text-decoration: none;
@@ -90,7 +92,17 @@
 
 /*Tablet*/
 @media screen and (min-width:700px) and (max-width:1000px) {
+    #certificado_fundo{
+        width: 140px;
+        height: 160px;
+    }
     
+    #botao_link{
+        margin-top: 55px;
+        padding: 7px 0px;
+        width: 140px;
+        height: 40px;
+    }
 }
 
 
@@ -148,7 +160,7 @@
     
     #botao_link{
         margin-top: 55px;
-        padding-top: 16px;
+        padding: 7px 0px;
         width: 158px;
         height: 40px;
     }
@@ -229,10 +241,15 @@
         width: 160px;
         height: 160px;
     }
-    
+
+    #botao_texto{
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
     #botao_link{
-        margin-top: 55px;
-        padding-top: 16px;
+        margin-top: 58px;
+        padding: 5px 0px;
         width: 158px;
         height: 40px;
     }
