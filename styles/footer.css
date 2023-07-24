@@ -18,15 +18,29 @@
 }
 
 
-/*Tablet*/
-@media screen and (min-width:700px) and (max-width:1000px) {
-    
-}
+
 /*note*/
 @media screen and (min-width:1000px) and (max-width:1300px) {
-    
+    .rodape_bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .rodape_texto1{
+        margin-right: 50px;
+    }
 }
 /*pc*/
 @media screen and (min-width:1300px){
-    
+    .rodape_bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape_texto1{
+        margin-right: 50px;
+    }
 }
