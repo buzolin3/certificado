@@ -1,0 +1,49 @@
+#documentos{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.documentos_titulo{
+    color: var(--cor-titulo);
+    margin: 20px;
+}
+
+#documentos_img{
+    width: 60px;
+    background-size: cover;
+    margin: 40px 0px 10px 0px;
+}
+
+#documentos_bloco{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.342);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#documentos_texto{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#documentos_lista{
+    width: 70%;
+    margin: auto;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+
+
+/*pc*/
+@media screen and (min-width:1300px) and (max-width:1700px) {
+    
+}
+
+/*TV*/
+@media screen and (min-width:1700px) {
+    
+}
