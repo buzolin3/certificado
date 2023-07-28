@@ -24,32 +24,66 @@
     font-family: var(--font-lato);
 }
 
+body{
+    background-color: white;
+}
 
 #linha{
-    width: 200px;
+    width: 300px;
     background-image: var(--cor-degrade);
     height: 5px;
     border-radius: 20px;
 }
 
 .linha0{
-    margin: 100px auto 50px auto;
+    margin: 120px auto 60px auto;
 }
 
-.linha1, .linha2, .linha3{
-    margin: 60px auto 60px auto
+.linha1, .linha2{
+    margin: 80px auto 80px auto
+}
+
+.linha3{
+    margin: 40px auto 80px auto
+}
+
+.linha4{
+    margin: 70px auto 70px auto
+}
+
+.linha5{
+    margin: 70px auto 60px auto;
 }
 
 
-/*Tablet*/
-@media screen and (min-width:700px) and (max-width:1000px) {
-    
-}
+
 /*note*/
 @media screen and (min-width:1000px) and (max-width:1300px) {
     
 }
 /*pc*/
 @media screen and (min-width:1300px){
+    #linha{
+        width: 400px;
+    }
+
+    .linha0{
+        margin: 150px auto 80px auto;
+    }
     
+    .linha1, .linha2{
+        margin: 80px auto 80px auto;
+    }
+    
+    .linha3{
+        margin: 100px auto 100px auto;
+    }
+    
+    .linha4{
+        margin: 70px auto 100px auto;
+    }
+    
+    .linha5{
+        margin: 100px auto 90px auto;
+    }
 }

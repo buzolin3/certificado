@@ -260,6 +260,7 @@
     #duvida_grupo, .duvida_grupo2{
         display: flex;
         flex-direction: row;
+        
     }
 
     #duvida_img{
@@ -285,7 +286,6 @@
         background-size: cover;
         background-position: center center;
     }
-
 
     #duvida_texto{
         height: 300px;

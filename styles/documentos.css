@@ -48,28 +48,29 @@
     .documentos_container{
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: end;    
-        gap: 200px;
-        margin-bottom: 50px;
+        gap: 50px;
+        margin-bottom: 60px;
     }
     
     #documentos_img{
         width: 100px;
         height: 100px;
         background-size: cover;
-        margin: 40px 0px 10px 0px;
+        margin: 40px 0px 0px 0px;
     }
     
     #documentos_bloco{
-        width: 50%;
+        width: 70%;
     }
 
     .documentos_container2{
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: start;    
-        gap: 200px;
+        gap: 50px;
     }
 
     #documentos_texto{
@@ -92,9 +93,10 @@
     .documentos_container{
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: end;    
-        gap: 200px;
-        margin-bottom: 50px;
+        gap: 50px;
+        margin-bottom: 80px;
     }
     
     #documentos_img{
@@ -105,15 +107,15 @@
     }
     
     #documentos_bloco{
-        width: 50%;
+        width: 70%;
     }
 
     .documentos_container2{
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: start;    
-        gap: 200px;
+        gap: 50px;
     }
 
     #documentos_texto{

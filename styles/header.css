@@ -272,6 +272,7 @@
     .cabecalho_lista{
         display: flex;
         list-style-type: none;
+        margin-right: 30px;
     }
     
     .cabecalho-item{
@@ -370,13 +371,14 @@
     .cabecalho_lista{
         display: flex;
         list-style-type: none;
+        margin-right: 30px;
     }
     
     .cabecalho-item{
         width: auto;
         height: auto;
-        padding: 0px 10px;
-        font-size: 16px;
+        padding: 0px 15px;
+        font-size: 18px;
     }
     
     #cabecalho_link{
@@ -488,13 +490,14 @@
 .cabecalho_lista{
     display: flex;
     list-style-type: none;
+    margin-right: 50px;
 }
 
 .cabecalho-item{
     width: auto;
     height: auto;
-    padding: 0px 10px;
-    font-size: 18px;
+    padding: 0px 20px;
+    font-size: 20px;
 }
 
 #cabecalho_link{
