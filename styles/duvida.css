@@ -29,10 +29,12 @@
 #duvida_grupo{  
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 .duvida_grupo2{  
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 #duvida_texto{
@@ -204,6 +206,7 @@
     #duvida_grupo, .duvida_grupo2{
         display: flex;
         flex-direction: row;
+        margin-bottom: 10px;
     }
 
     #duvida_img{
@@ -260,7 +263,7 @@
     #duvida_grupo, .duvida_grupo2{
         display: flex;
         flex-direction: row;
-        
+        margin-bottom: 12px;
     }
 
     #duvida_img{
