@@ -17,6 +17,10 @@
     --font-roboto: 'Roboto', Arial, sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
 
 *{
     padding: 0px;
