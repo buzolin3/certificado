@@ -35,6 +35,12 @@
     font-weight: 500;
 }
 
+.aba:hover{
+    transition: 0.4s;
+    color: rgb(19, 50, 134);
+    font-size: 17px;
+}
+
 #certificado_img{
     margin-top: 30px;
     margin-bottom: 5px;
@@ -87,6 +93,43 @@
     border-radius: 0px 0px 20px 20px;
 }
 
+#botao_link:hover{
+    transition: 0.3s;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#bloco_dpn{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.308);
+    width: 300px;
+    margin: 80px auto 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.dpn_img{
+    width: 40px;
+
+}
+
+#dpn_link{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 600
+}
+
+#dpn_link:hover{
+    transition: 0.4s;
+    color: rgb(4, 71, 172);
+}
+
+
 
 
 
@@ -102,6 +145,12 @@
         padding: 7px 0px;
         width: 140px;
         height: 40px;
+    }
+
+    #botao_link:hover{
+        background-color: rgb(41, 41, 41);
+        color: rgb(255, 255, 255);
+        font-weight: 600;
     }
 }
 
@@ -146,6 +195,10 @@
         margin: 0px;
     }
 
+    .aba:hover{
+        color: rgb(19, 50, 134);
+        font-size: 21px;
+    }
 
 
 
@@ -163,6 +216,12 @@
         padding: 7px 0px;
         width: 158px;
         height: 40px;
+    }
+
+    #botao_link:hover{
+        background-color: rgb(41, 41, 41);
+        color: rgb(255, 255, 255);
+        font-weight: 600;
     }
 }
 
@@ -234,7 +293,10 @@
         margin: 0px;
     }
 
-
+    .aba:hover{
+        color: rgb(19, 49, 148);
+        font-size: 19px;
+    }
 
 
 
@@ -257,6 +319,12 @@
         padding: 5px 0px;
         width: 158px;
         height: 45px;
+    }
+
+    #botao_link:hover{
+        background-color: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+        font-weight: 600;
     }
 }
 

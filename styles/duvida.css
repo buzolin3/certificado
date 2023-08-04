@@ -73,6 +73,12 @@
     text-align: center;
 }
 
+#duvida_link:hover{
+    transition: 0.5s;
+    border: 4px solid rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
+}
+
 
 
 /*Tablet*/
@@ -137,6 +143,11 @@
         height: 200px;
         text-align: center;
     }
+
+    #duvida_link:hover{
+        border: 4px solid rgb(34, 34, 34);
+        color: rgb(34, 34, 34);
+    }
 }
 
 
@@ -193,6 +204,11 @@
 
     .duvida_paragrafo3{
         margin: 50px auto;
+    }
+
+    #duvida_link:hover{
+        border: 4px solid rgb(34, 34, 34);
+        color: rgb(34, 34, 34);
     }
 }
 
@@ -255,6 +271,10 @@
         margin: 50px auto;
     }
 
+    #duvida_link:hover{
+        border: 4px solid rgb(34, 34, 34);
+        color: rgb(34, 34, 34);
+    }
 }
 
 
@@ -319,5 +339,10 @@
         text-decoration: none;
         border-radius: 5px;
         font-weight: 600;
+    }
+
+    #duvida_link:hover{
+        border: 4px solid rgb(34, 34, 34);
+        color: rgb(34, 34, 34);
     }
 }
