@@ -294,7 +294,7 @@
 
     #cabecalho_link:hover{
         transition: 0.5s;
-        color: rgb(28, 88, 156);
+        color: rgb(23, 112, 214);
         font-size: 17px;
     }
 
@@ -308,6 +308,25 @@
         transition: 0.5s;
         color: rgb(25, 82, 158);
     }
+
+    .bloco_1:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
+    .bloco_2:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
+    .bloco_3:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
 }
 
 
@@ -425,6 +444,24 @@
         vertical-align: center;
     }
 
+    .bloco_1:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
+    .bloco_2:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
+    .bloco_3:hover{
+        width: 180px;
+        height: 160px;
+        background-color: rgb(242, 242, 242);
+    }
+
     .blocos_img, .blocos_img2, .blocos_img3{
         width: 80px;
     }
@@ -437,8 +474,8 @@
     }
 
     #blocos_link_texto:hover{
-        transition: 0.5s;
-        color: rgb(25, 82, 158);
+        transition: 0.2s;
+        color: rgb(19, 111, 232);
     }
 
     .blocos_link3{
@@ -552,6 +589,24 @@
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.555);
     text-align: center;
     vertical-align: center;
+}
+
+.bloco_1:hover{
+    width: 180px;
+    height: 160px;
+    background-color: rgb(242, 242, 242);
+}
+
+.bloco_2:hover{
+    width: 180px;
+    height: 160px;
+    background-color: rgb(242, 242, 242);
+}
+
+.bloco_3:hover{
+    width: 180px;
+    height: 160px;
+    background-color: rgb(242, 242, 242);
 }
 
 .blocos_img, .blocos_img2, .blocos_img3{
